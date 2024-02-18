@@ -1,0 +1,10 @@
+.answered {
+  color: rgb(53, 34, 225);
+  width: 850px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.notAnswered {
+  color: red;
+}

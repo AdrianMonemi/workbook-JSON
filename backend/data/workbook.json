@@ -1,0 +1,344 @@
+[
+  {
+    "id": 1,
+    "category": "functional patterns",
+    "question": "What is a callback function?",
+    "answer": "A callback function is a function that is passed as an argument to another function and is executed by that function when a particular event or task is completed. The function that receives the callback function is responsible for calling it at the appropriate time, based on the conditions that have been set.\n\nCallbacks are commonly used in programming to handle events such as user input, network requests, and timer events. They allow for asynchronous processing of tasks, which can help improve the performance and responsiveness of applications.\n\nFor example, in JavaScript, a callback function can be passed as an argument to the setTimeout function, which will execute the callback function after a specified amount of time has passed. Similarly, in Node.js, a callback function can be used to handle the result of a database query or a network request.\n\n\nan example of a callback function in JavaScript:\n```\nfunction greeting(name, callback) {\n  console.log(\"Hello, \" + name + \"!\");\n  callback();\n}\n\nfunction sayGoodbye() {\n  console.log(\"Goodbye!\");\n}\n\ngreeting(\"John\", sayGoodbye);\n\n```\n\nIn this example, we have a function greeting that takes two arguments: name and callback. The greeting function logs a message to the console with the name of the person being greeted, and then calls the callback function.\n\nWe also have another function sayGoodbye, which logs a message to the console saying \"Goodbye!\".\n\nWhen we call greeting(\"John\", sayGoodbye), the greeting function logs \"Hello, John!\", and then calls the sayGoodbye function, which logs \"Goodbye!\". This is an example of a callback function, where sayGoodbye is the function that is passed as a callback argument to greeting."
+  },
+  {
+    "id": 2,
+    "category": "functional patterns",
+    "question": "What is ECMA script ? What is the difference between Javascript & ECMA script ?",
+    "answer": "ECMAScript is a scripting language specification that is used to implement several high-level programming languages, including JavaScript. The ECMAScript specification defines the syntax, semantics, and standard libraries of the language. ECMAScript is developed and maintained by ECMA International, a standards organization that is responsible for the development of several other standards, including the JSON data format.\n\nJavaScript is the most well-known and widely-used implementation of ECMAScript. Other implementations of the ECMAScript specification include JScript, ActionScript, and several other scripting languages. Each implementation of ECMAScript may have its own unique features and capabilities, but they all conform to the ECMAScript specification and share a common syntax and set of language constructs.\n\nThe most recent version of the ECMAScript specification is ECMAScript 2022 (ES2022), which was released in June 2022. Each new version of the specification typically introduces new features and capabilities to the language, while maintaining backward compatibility with previous versions.\n\n\nThere is no difference between JavaScript and ECMAScript, as JavaScript is actually an implementation of the ECMAScript standard.\n\nECMAScript is a standard that defines the syntax, semantics, and standard libraries of a scripting language, and JavaScript is the most widely-used implementation of that standard. Other implementations of ECMAScript include JScript and ActionScript.\n\nJavaScript was originally developed by Netscape in the mid-1990s as a way to add interactivity to web pages. It was later standardized as ECMAScript, with the first edition of the ECMAScript standard published in 1997. Since then, several versions of the ECMAScript specification have been released, each adding new features and capabilities to the language.\n\nIn short, JavaScript is a programming language that implements the ECMAScript standard. While there may be other implementations of ECMAScript, JavaScript is the most popular and widely-used implementation, and the terms \"JavaScript\" and \"ECMAScript\" are often used interchangeably."
+  },
+  {
+    "id": 3,
+    "category": "functional patterns",
+    "question": "What is the difference between `let` & `var` ?",
+    "answer": ""
+  },
+  {
+    "id": 4,
+    "category": "functional patterns",
+    "question": "Give a practical example where you would use the `reduce` function in javascript.",
+    "answer": ""
+  },
+  {
+    "id": 5,
+    "category": "functional patterns",
+    "question": "Give a practical example where you would use the `map` function in javascript.",
+    "answer": ""
+  },
+  {
+    "id": 6,
+    "category": "functional patterns",
+    "question": "Give a practical example where you would use the `filter` function in javascript.",
+    "answer": ""
+  },
+  {
+    "id": 7,
+    "category": "Web basics",
+    "question": "What is a web server?",
+    "answer": "Server"
+  },
+  {
+    "id": 8,
+    "category": "Web basics",
+    "question": "Explain the client-server architecture.",
+    "answer": " "
+  },
+  {
+    "id": 9,
+    "category": "Web basics",
+    "question": "What is the difference between synchronous and asynchronous execution?",
+    "answer": ""
+  },
+  {
+    "id": 10,
+    "category": "Web basics",
+    "question": "What is `npm`? Why is it useful?",
+    "answer": ""
+  },
+  {
+    "id": 11,
+    "category": "Web basics",
+    "question": "What would be the impact of javascript `fetch` if it was not asyncronous ?",
+    "answer": ""
+  },
+  {
+    "id": 12,
+    "category": "Web basics",
+    "question": "Why benefits would bring to a developer to use the `Postman` application ?",
+    "answer": ""
+  },
+  {
+    "id": 13,
+    "category": "Web basics",
+    "question": "List the parts of the URL.",
+    "answer": ""
+  },
+  {
+    "id": 14,
+    "category": "Web basics",
+    "question": "What is query parameter?",
+    "answer": ""
+  },
+  {
+    "id": 15,
+    "category": "Web basics",
+    "question": "What kind of HTTP status codes do you know?",
+    "answer": ""
+  },
+  {
+    "id": 16,
+    "category": "Web basics",
+    "question": "How does an HTTP Request look like? What are the most relevant HTTP header fields?",
+    "answer": ""
+  },
+  {
+    "id": 17,
+    "category": "Web basics",
+    "question": "How does an HTTP Response look like? What are the most relevant HTTP header fields?",
+    "answer": ""
+  },
+  {
+    "id": 18,
+    "category": "Web basics",
+    "question": "Why should you ignore the `node_modules` folder in `.gitignore` ?",
+    "answer": ""
+  },
+  {
+    "id": 19,
+    "category": "Rest API: Serve and Fetch",
+    "question": "In a REST API, what are the HTTP methods _GET_, _PUT_ and _DELETE_ used for? (replacement question for the question above)",
+    "answer": ""
+  },
+  {
+    "id": 20,
+    "category": "Rest API: Serve and Fetch",
+    "question": "How do you make a POST request from JavaScript? (replacement question for the question above)",
+    "answer": ""
+  },
+  {
+    "id": 21,
+    "category": "Rest API: Serve and Fetch",
+    "question": "What is an API?",
+    "answer": ""
+  },
+  {
+    "id": 22,
+    "category": "Rest API: Serve and Fetch",
+    "question": "What is REST API?",
+    "answer": ""
+  },
+  {
+    "id": 23,
+    "category": "Rest API: Serve and Fetch",
+    "question": "What is JSON and how do we use it?",
+    "answer": ""
+  },
+  {
+    "id": 24,
+    "category": "Rest API: Serve and Fetch",
+    "question": "What is API versioning ?",
+    "answer": ""
+  },
+  {
+    "id": 25,
+    "category": "Rest API: Serve and Fetch",
+    "question": "Give 3 examples of HTTP response status codes ? Explain what each number means.",
+    "answer": ""
+  },
+  {
+    "id": 26,
+    "category": "Advanced JavaScript",
+    "question": "How does the `ternary operator` looks like in javascript?",
+    "answer": ""
+  },
+  {
+    "id": 27,
+    "category": "Advanced JavaScript",
+    "question": "How to import a function from another module in JavaScript?",
+    "answer": ""
+  },
+  {
+    "id": 28,
+    "category": "Advanced JavaScript",
+    "question": "What is a shallow copy on an object?",
+    "answer": ""
+  },
+  {
+    "id": 29,
+    "category": "Advanced JavaScript",
+    "question": "What is a callback function? Tell some examples of its usage.",
+    "answer": ""
+  },
+  {
+    "id": 30,
+    "category": "Advanced JavaScript",
+    "question": "What is object destructuring in javascript?",
+    "answer": ""
+  },
+  {
+    "id": 31,
+    "category": "Advanced JavaScript",
+    "question": "What is array destructuring in javascript?",
+    "answer": ""
+  },
+  {
+    "id": 32,
+    "category": "Advanced JavaScript",
+    "question": "What is the spread operator in `js` ?",
+    "answer": ""
+  },
+  {
+    "id": 33,
+    "category": "Advanced JavaScript",
+    "question": "What are the differences between the `arrow` function and the regular `function`?",
+    "answer": ""
+  },
+  {
+    "id": 34,
+    "category": "Advanced JavaScript",
+    "question": "What is the `import` keyword used for?",
+    "answer": ""
+  },
+  {
+    "id": 35,
+    "category": "Advanced JavaScript",
+    "question": "What is the `require` used for?",
+    "answer": ""
+  },
+  {
+    "id": 36,
+    "category": "Advanced JavaScript",
+    "question": "What are template literals?",
+    "answer": ""
+  },
+  {
+    "id": 37,
+    "category": "React basics",
+    "question": "What benefits does it bring for a developer to use `components` (opposed of writing all the code in a single file) ?",
+    "answer": ""
+  },
+  {
+    "id": 38,
+    "category": "React basics",
+    "question": "What is the difference between Element and Component?",
+    "answer": ""
+  },
+  {
+    "id": 39,
+    "category": "React basics",
+    "question": "How do you pass values between components in `react`?",
+    "answer": ""
+  },
+  {
+    "id": 40,
+    "category": "React basics",
+    "question": "What is `key` prop?",
+    "answer": ""
+  },
+  {
+    "id": 41,
+    "category": "React basics",
+    "question": "How does a child component pass data to it's parent component ?",
+    "answer": ""
+  },
+  {
+    "id": 42,
+    "category": "React basics",
+    "question": "Write the code to create in JSX an unordered list from the array let names = [Mathew, John, Maverik]",
+    "answer": ""
+  },
+  {
+    "id": 43,
+    "category": "React basics",
+    "question": "Write the code to set the background color red of a div in JSX.",
+    "answer": ""
+  },
+  {
+    "id": 44,
+    "category": "React patterns",
+    "question": "When adding an item to an array in the state, why is it necessary to pass a new array to the setter function? (replacement question for the question above)",
+    "answer": ""
+  },
+  {
+    "id": 45,
+    "category": "React patterns",
+    "question": "Describe what techniques or tools you use to debug a react app.",
+    "answer": ""
+  },
+  {
+    "id": 46,
+    "category": "React patterns",
+    "question": "What is the difference between a react class component & a functional component ?",
+    "answer": ""
+  },
+  {
+    "id": 47,
+    "category": "React patterns",
+    "question": "What is conditional rendering in react ? Give an example.",
+    "answer": ""
+  },
+  {
+    "id": 48,
+    "category": "React patterns",
+    "question": "Why is there an infinite loop in this code",
+    "answer": ""
+  },
+  {
+    "id": 49,
+    "category": "React patterns",
+    "question": "Why is there an infinite loop in this code \nfunction App() {\n const [count, setCount] = useState(0); //initial value of this\n useEffect(() => {\n setCount((count) => count + 1); //increment this Hook\n }); //no dependency array.\n return (\n <div className='App'>\n <p> value of count: {count} </p>\n </div>\n );\n}",
+    "answer": ""
+  },
+  {
+    "id": 50,
+    "category": "Mongo & mongoose",
+    "question": "What is a database schema ?",
+    "answer": ""
+  },
+  {
+    "id": 51,
+    "category": "Mongo & mongoose",
+    "question": "Write the code to store the object {name: Andrew, age: 10} to a mongo database. You can ignore the part of connection parameters.",
+    "answer": ""
+  },
+  {
+    "id": 52,
+    "category": "Mongo & mongoose",
+    "question": "Write the code to delete from a mongo database all employees that are over 18 years. The scheme for an employee is {name: string, age: int}. You can ignore the part of connection parameters.",
+    "answer": ""
+  },
+  {
+    "id": 53,
+    "category": "Mongo & mongoose",
+    "question": "Write the code to display in the console from a mongo database the employees who are over 18 years. The scheme for an employee is {name: string, age: int}. You can ignore the part of connection parameters.",
+    "answer": ""
+  },
+  {
+    "id": 54,
+    "category": "Mongo & mongoose",
+    "question": "Write the code to update from a mongo database the employees with name='John' and set the new age to 8. The scheme for an employee is {name: string, age: int}. You can ignore the part of connection parameters.",
+    "answer": ""
+  },
+  {
+    "id": 55,
+    "category": "MERN stack",
+    "question": "What is routing in the context of a react app ?",
+    "answer": ""
+  },
+  {
+    "id": 56,
+    "category": "MERN stack",
+    "question": "What is routing in the context of an express app ?",
+    "answer": ""
+  },
+  {
+    "id": 57,
+    "category": "MERN stack",
+    "question": "What is `CORS` policy ?",
+    "answer": ""
+  }
+]

@@ -25,8 +25,7 @@ Functionality
 
 ## Example Question
 
-## json
-
+#### json
 {
     "id": 3,
     "category": "functional patterns",
@@ -36,18 +35,18 @@ Functionality
 
 ## Installation
 
-    Clone this repository to your local machine.
-    Open a terminal and navigate to the project directory.
-    Run npm install to install the required dependencies.
+    1.Clone this repository to your local machine.
+    2.Open a terminal and navigate to the project directory.
+    3.Run npm install to install the required dependencies.
 
 ## Usage
 
-    After installing dependencies, start the application with npm start.
-    Alternatively, if you are in the ./frontend directory, you can use nodemon App.js.
-    Once the application is running, unanswered questions will be displayed in tabs grouped by categories.
-    Click on the tabs to view questions in each category.
-    Edit or add answers by clicking on a question and entering your response.
-    Click "Save" to store your answer.
+    1.After installing dependencies, start the application with npm start.
+    2.Alternatively, if you are in the ./frontend directory, you can use nodemon App.js.
+    3.Once the application is running, unanswered questions will be displayed in tabs grouped by categories.
+    4.Click on the tabs to view questions in each category.
+    5.Edit or add answers by clicking on a question and entering your response.
+    6.Click "Save" to store your answer.
 
 Contributors
 
